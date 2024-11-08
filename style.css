@@ -9,6 +9,25 @@ body {
   margin-right: auto;
   min-width: auto;
 }
+.all {
+  background-color: rgb(244, 243, 241);
+  margin: 30px;
+  display: flex;
+  gap: 0px;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: auto;
+}
+.zin {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: rgba(238, 232, 197, 0.712);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
 img {
   max-width: 100%;
   width: 150px;

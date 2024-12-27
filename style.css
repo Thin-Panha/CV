@@ -1,13 +1,15 @@
 body {
-  background-color: rgb(244, 243, 241);
+  background-color: aliceblue;
   margin: 30px;
   display: flex;
   gap: 0px;
   flex-wrap: wrap;
-  width: 800px;
+  width: 950px;
+  height: 1200px;
   margin-left: auto;
   margin-right: auto;
   min-width: auto;
+  border: 1px solid rgb(10, 0, 0);
 }
 .all {
   background-color: rgb(244, 243, 241);
@@ -15,18 +17,36 @@ body {
   display: flex;
   gap: 0px;
   flex-wrap: wrap;
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
   min-width: auto;
+  padding: auto;
+  margin-top: -250px;
 }
-.zin {
+.block_top {
   flex-grow: 1;
   flex-shrink: 1;
-  background-color: rgba(238, 232, 197, 0.712);
-  margin: 20px;
+  background-color: rgba(2, 2, 2, 0.808);
+  height: 25%;
   padding: 20px;
-  border-radius: 10px;
+  margin-bottom: -30px;
+}
+
+.block_left {
+  background-color: rgba(196, 182, 182, 0.712);
+  flex: 1;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 50px;
+  height: 94.7%;
+}
+.block_right {
+  background-color: rgb(236, 234, 227);
+  flex: 2.8;
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 94.7%;
 }
 img {
   max-width: 100%;
@@ -34,40 +54,37 @@ img {
   height: 150px;
   border-radius: 50%;
   margin: 20px;
+  align-content: center;
+  border: 1px solid rgb(17, 17, 17);
 }
 .horizontal-and-vertical-centering {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.block_left {
-  background-color: rgba(197, 128, 128, 0.712);
-  flex: 1;
-  padding-left: 30px;
-  padding-right: 50px;
-  height: 1000px;
-}
-.block_right {
-  background-color: rgb(238, 232, 197);
-  flex: 3;
-  padding-left: 50px;
-  padding-right: 50px;
-  height: 1000px;
-  min-width: 200px;
-}
 h2 {
   margin-bottom: 0px;
 }
 hr {
-  background-color: black;
-  height: 1px;
-  margin-top: 0;
+  border: none;
+  border-top: 1px solid rgb(10, 0, 0);
+}
+p {
+  margin: 10px;
+  size: 15px;
+  line-height: 20px;
 }
 .lower_text {
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-top: -13px;
+  margin-bottom: -13px;
   color: rgb(72, 80, 80);
 }
-img {
-  align-content: center;
+.letter_header {
+  text-align: center;
+  color: rgb(184, 187, 190);
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.th1 {
+  width: 300px;
 }
